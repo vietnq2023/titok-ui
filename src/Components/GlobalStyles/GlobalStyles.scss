@@ -4,9 +4,14 @@
 // Dat bien
 :root {
   --primary: #fe2c55;
+  // Default Layout
+  --Default-layout-header-height: 60px;
+  --Default-layout-container-width: 1150px;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
