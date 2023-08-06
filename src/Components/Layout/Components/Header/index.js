@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleQuestion,
   faCircleXmark,
-  faCloudUpload,
   faCoins,
   faEllipsisVertical,
   faGear,
@@ -25,8 +24,11 @@ import { Wrapper as PopperWrapper } from '~/Components/Popper';
 import AccountItem from '../AccountItem';
 import Button from '~/Components/Button';
 import Menu from '~/Components/Popper/Menu';
+import { UploadIcon } from '~/Components/Icons';
+import Image from '~/Components/Image';
 
 const cx = classNames.bind(styles);
+
 const MENU_ITEMS = [
   {
     icon: <FontAwesomeIcon icon={faLanguage} />,
@@ -131,12 +133,13 @@ function Header() {
             </button>
           </div>
         </HeadlessTippy>
+
         <div className={cx('action')}>
           {currentUser ? (
             <>
               <Tippy delay={[0, 200]} content="Upload video" placement="bottom">
                 <button className={cx('action-btn')}>
-                  <FontAwesomeIcon icon={faCloudUpload} />
+                  <UploadIcon />
                 </button>
               </Tippy>
             </>
@@ -146,9 +149,10 @@ function Header() {
               <Button primary>Login</Button>
             </>
           )}
+
           <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={handleMenuChange}>
             {currentUser ? (
-              <img
+              <Image
                 className={cx('user-avatar')}
                 src="https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/9bea2c30cf41b2cb99db73e81b62b2b8~c5_100x100.jpeg?x-expires=1691452800&x-signature=W%2Fcf7myO4Bhb1UnnONtiHcw0Lew%3D"
                 alt="Neymar JR"
