@@ -44,6 +44,138 @@ const MENU_ITEMS = [
           code: 'vi',
           title: 'Viet Nam',
         },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
+        {
+          code: 'en',
+          title: 'English',
+        },
+        {
+          code: 'jp',
+          title: 'Japan',
+        },
+        {
+          code: 'vi',
+          title: 'Viet Nam',
+        },
       ],
     },
   },
