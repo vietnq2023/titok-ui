@@ -1,12 +1,11 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
 // Dat bien
 :root {
   --primary: #fe2c55;
   --black: #000;
   --white: #fff;
   --text-color: #161823;
+  --font-family: 'TikTokFont', sans-serif;
   // Default Layout
   --Default-layout-header-height: 60px;
   --Default-layout-width: 1150px;
@@ -24,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-family);
   font-size: 1.6rem;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
@@ -42,7 +41,30 @@ a[href] {
   text-decoration: none;
   color: var(--text-color);
 }
+// Fonts embedded
+@font-face {
+  font-family: TikTokFont;
+  src: url('/assets/fonts/TikTokFont-Regular.woff2');
+  font-weight: 400;
+}
 
+@font-face {
+  font-family: TikTokFont;
+  src: url('/assets/fonts/TikTokFont-Semibold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: TikTokFont;
+  src: url('/assets/fonts/TikTokFont-Bold (1).woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: TikTokDisplayFont;
+  src: url('/assets/fonts/TikTokDisplayFont-Semibold.woff2');
+  font-weight: 700;
+}
 // Custom tippy tooltip
 body {
   .tippy-box {
