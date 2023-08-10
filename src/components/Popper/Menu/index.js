@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import Tippy from '@tippyjs/react/headless';
 import { useState } from 'react';
 
-import { Wrapper as PopperWrapper } from '~/Components/Popper';
+import { Wrapper as PopperWrapper } from '~/components/Popper';
 import MenuItem from './MenuItem';
 import Header from './Header';
 import styles from './Menu.module.scss';
@@ -33,7 +33,6 @@ function Menu({ children, items = [], onChange = defaultFn, hideOnClick = false 
   };
   return (
     <Tippy
-      // visible={true}
       offset={[12, 8]}
       interactive={true}
       hideOnClick={hideOnClick}
@@ -50,7 +49,7 @@ function Menu({ children, items = [], onChange = defaultFn, hideOnClick = false 
                 }}
               />
             )}
-            {renderItems()}
+            <div className={cx('menu-body')}>{renderItems()}</div>
           </PopperWrapper>
         </div>
       )}
